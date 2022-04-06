@@ -22,7 +22,7 @@ const List = ({ title, lists = [] }) => {
             y: 0,
           }}
           transition={{ delay: 0.1, duration: 1 }}
-          className="break-words whitespace-pre-line md text-gray-700 "
+          className="text-xl break-words whitespace-pre-line md text-gray-700 "
           key={index}
         >
           {list}
