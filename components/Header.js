@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Header = () => {
   return (
     <div className="bg-[#1A1A1A]">
-      <div className="flex justify-between items-center p-5 max-w-5xl mx-auto">
+      <div className="flex justify-between items-center p-5 max-w-8xl mx-auto">
         <div>
           <motion.div
             initial={{

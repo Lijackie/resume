@@ -17,7 +17,7 @@ const school = ["高雄科技大學資訊工程系碩士"]
 
 const Resume = () => {
   return (
-    <div className="flex max-w-5xl p-8">
+    <div className="block mx-auto md:flex md:justify-center p-8">
         <div>
             <List title="技能" lists={lists} />
             <List title="作品集" lists={projects} />
