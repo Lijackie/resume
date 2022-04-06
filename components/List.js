@@ -7,8 +7,8 @@ const List = ({ title, lists = [] }) => {
       <h1 className="flex">
         <InformationCircleIcon className="w-6 h-6 mr-1" />
         <motion.span
-          whileHover={{ scale: 1.5 }}
-          className="ml-2 text-[#DAA520]"
+          whileHover={{ scale: 1.3 }}
+          className="ml-2 text-2xl text-[#DAA520]"
         >
           {title}
         </motion.span>
@@ -22,7 +22,7 @@ const List = ({ title, lists = [] }) => {
             y: 0,
           }}
           transition={{ delay: 0.1, duration: 1 }}
-          className="text-xl break-words whitespace-pre-line md text-gray-700 "
+          className="text-3xl break-words whitespace-pre-line md text-gray-700 "
           key={index}
         >
           {list}
