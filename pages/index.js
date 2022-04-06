@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex flex-col h-screen">
+      <div className="flex flex-col min-h-screen">
         <Header />
         <Resume />
         <div className="flex-grow"></div>
